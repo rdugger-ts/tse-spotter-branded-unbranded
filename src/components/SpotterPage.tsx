@@ -13,7 +13,7 @@ import type { CustomisationsInterface } from '@thoughtspot/visual-embed-sdk';
 const WORKSHEET_ID = import.meta.env.VITE_TS_WORKSHEET_ID;
 
 // ---------------------------------------------------------------------------
-// Quinyx brand palette — derived from their confirmed Petroleum primary #004851.
+// brand palette
 //
 //   #004851  Petroleum       primary brand / headings / buttons
 //   #006B7D  Petroleum mid   lighter teal for hover states
@@ -40,7 +40,7 @@ const BRANDED_CUSTOMIZATIONS: CustomisationsInterface = {
     customCSS: {
       variables: {
         // --- Page & panel backgrounds ---
-        // Root background: pale teal tint matching Quinyx's clean light aesthetic
+        // Root background: pale teal tint
         '--ts-var-root-background':                       '#F4FAFB',
         // Chat conversation bubble background
         '--ts-var-spotter-prompt-background':             '#EAF3F4',
@@ -52,7 +52,7 @@ const BRANDED_CUSTOMIZATIONS: CustomisationsInterface = {
         '--ts-var-root-color':                            '#1A1A1A',
 
         // --- Buttons ---
-        // Primary CTA — Quinyx Petroleum
+        // Primary CTA
         '--ts-var-button--primary-background':            '#004851',
         '--ts-var-button--primary-color':                 '#FFFFFF',
         // Secondary buttons — light teal tint with petroleum text
@@ -162,8 +162,7 @@ export default function SpotterPage() {
 
 // ---------------------------------------------------------------------------
 // Inline styles — kept as a typed record so React accepts them without cast.
-// The branded bar mirrors the Quinyx Petroleum color so the chrome matches
-// the embed theme the moment you switch modes.
+// 
 // ---------------------------------------------------------------------------
 const styles: Record<string, React.CSSProperties> = {
   // Basic mode bar — neutral light gray
@@ -175,7 +174,7 @@ const styles: Record<string, React.CSSProperties> = {
     background: '#f8f8f8',
     borderBottom: '1px solid #e2e2e2',
   },
-  // Branded mode bar — Quinyx Petroleum so the chrome matches the embed
+  // Branded mode bar
   barBranded: {
     display: 'flex',
     alignItems: 'center',

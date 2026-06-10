@@ -7,7 +7,7 @@ The app demonstrates two embed modes toggled with a single button:
 | Mode | What it shows |
 |---|---|
 | **Basic Spotter** | Vanilla ThoughtSpot Spotter — no customization |
-| **Branded Spotter** | Fully re-branded embed styled to the Quinyx color palette — custom CSS theme, custom icons, renamed strings, custom AI persona, and branded response cards |
+| **Branded Spotter** | Fully re-branded embed styled via custom CSS theme, custom icons, renamed strings, custom AI persona, and branded response cards |
 
 ---
 
@@ -114,11 +114,9 @@ This app uses `AuthType.TrustedAuthTokenCookieless` from the Visual Embed SDK.
 
 ## Branded Mode
 
-Clicking **Branded Spotter** applies three layers of customization simultaneously. The toggle bar itself also re-themes to Quinyx Petroleum (`#004851`) so the entire UI — chrome and embed — matches the brand.
+Clicking **Branded Spotter** applies three layers of customization simultaneously. The toggle bar itself also re-themes to teal (`#004851`) so the entire UI — chrome and embed — matches the brand.
 
-### 1. CSS Variables — Quinyx color palette
-
-Derived from Quinyx's confirmed Petroleum primary `#004851`:
+### 1. CSS Variables
 
 | Variable | Value | Effect |
 |---|---|---|
