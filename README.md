@@ -123,12 +123,12 @@ Clicking **Branded Spotter** applies two layers of customization on top of the v
   iconSpriteUrl: '...',          // Replace the default ThoughtSpot SVG icon set
   content: {
     strings: {
-      'Spotter':     'Wells',    // Rename the AI persona globally
-      'ThoughtSpot': 'WF Analytics',
+      'Spotter':     'Abby',    // Rename the AI persona globally
+      'ThoughtSpot': 'Abby Analytics',
       ...
     },
     stringIDs: {
-      'spotter.newChatPrompt.landingPage.title': 'Hi, I'm Agent WF, your data analyst!',
+      'spotter.newChatPrompt.landingPage.title': 'Hi, I'm Agent Abby, your data analyst!',
     },
   },
 }
@@ -139,7 +139,7 @@ Clicking **Branded Spotter** applies two layers of customization on top of the v
 ```ts
 {
   hideToolResponseCardBranding:  true,       // Remove TS logo from AI response cards
-  toolResponseCardBrandingLabel: 'WF Agent', // Replace card header label
+  toolResponseCardBrandingLabel: 'Abby Agent', // Replace card header label
   spotterFileUploadEnabled:      true,       // Enable file upload in chat input
 }
 ```

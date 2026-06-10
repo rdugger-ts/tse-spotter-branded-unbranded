@@ -3,3 +3,10 @@ dist/
 dist-server/
 .env
 *.local
+
+# Claude / AI
+CLAUDE.md
+.claude/
+
+# OS
+.DS_Store
